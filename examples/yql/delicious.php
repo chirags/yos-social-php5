@@ -42,7 +42,7 @@ $yql  = new YahooYQLQuery();
 
 $data = $yql->execute('select * from delicious.feeds.popular;');
 
-header('Cache-Control: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
 header('Pragma: no-cache');
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
